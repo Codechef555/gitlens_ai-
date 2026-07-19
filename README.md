@@ -1,4 +1,4 @@
-# GitLens AI | ## Github for Life 
+# GitLens AI | Github for Life 
 
 GitLens AI is a repository intelligence dashboard for importing a repository, analyzing its architecture and risks, visualizing relationships, simulating change impact, and asking natural language questions about the codebase with repository-aware chat.
 
