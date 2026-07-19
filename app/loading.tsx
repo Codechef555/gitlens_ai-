@@ -1,0 +1,1 @@
+export default function Loading() { return <main className="grid min-h-screen place-items-center bg-zinc-950"><div className="flex items-center gap-3 text-sm text-zinc-400"><span className="size-4 animate-spin rounded-full border-2 border-violet-400 border-t-transparent"/> Loading GitLens AI…</div></main>; }

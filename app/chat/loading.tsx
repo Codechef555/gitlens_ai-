@@ -1,0 +1,1 @@
+export default function ChatLoading() { return <main className="grid h-screen place-items-center bg-zinc-950"><span className="size-5 animate-spin rounded-full border-2 border-violet-400 border-t-transparent"/></main>; }

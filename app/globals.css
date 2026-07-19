@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-zinc-800;
+  }
+
+  html {
+    @apply bg-zinc-950;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply min-h-screen bg-zinc-950 font-sans text-zinc-100 antialiased;
+    background-image: radial-gradient(circle at 20% 10%, rgba(99,102,241,.16), transparent 18%), radial-gradient(circle at 80% 15%, rgba(168,85,247,.12), transparent 23%), linear-gradient(180deg, #020203 0%, #09090b 100%);
+    background-attachment: fixed;
+  }
+
+  button,
+  input,
+  textarea,
+  select {
+    font: inherit;
+  }
+}
+
+::selection {
+  background: rgba(139, 92, 246, .4);
+  color: white;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: .01ms !important;
+  }
+}

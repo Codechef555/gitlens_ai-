@@ -1,0 +1,1 @@
+export default function LoadingRepository() { return <main className="min-h-screen bg-zinc-950 p-8"><div className="mx-auto max-w-[1600px] animate-pulse"><div className="h-10 w-60 rounded-lg bg-white/[.06]"/><div className="mt-8 h-[600px] rounded-2xl border border-white/[.06] bg-white/[.025]"/></div></main>; }
