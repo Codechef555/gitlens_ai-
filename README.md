@@ -1,6 +1,7 @@
 # GitLens AI
 ## Github for Life 
-https://github.com/Codechef555/gitlens_ai-/blob/main/Banner_image.png 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/9b0d7599-97d3-44a9-9a2d-e33bc1827bfb" />
+
 **Understand any codebase like the engineer who built it.**
 
 GitLens AI is a repository intelligence dashboard for importing a repository, analyzing its architecture and risks, visualizing relationships, simulating change impact, and asking natural language questions about the codebase with repository-aware chat.
